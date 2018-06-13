@@ -8,7 +8,7 @@
 
 import UIKit
 
-class addItemViewController: UIViewController, UITextViewDelegate {
+class AddItemViewController: UIViewController, UITextViewDelegate {
     
     @IBOutlet var itemEntryTextView: UITextView?
     
