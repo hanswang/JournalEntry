@@ -15,7 +15,6 @@
 		23A8CEE320D0C6F7001B9D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A8CEE120D0C6F7001B9D72 /* LaunchScreen.storyboard */; };
 		23A8CEEE20D0C6F7001B9D72 /* JournalEntryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A8CEED20D0C6F7001B9D72 /* JournalEntryTests.swift */; };
 		23A8CEF920D0C6F7001B9D72 /* JournalEntryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A8CEF820D0C6F7001B9D72 /* JournalEntryUITests.swift */; };
-		23C01BC520D0CFE500EE6543 /* JournalEntry in Resources */ = {isa = PBXBuildFile; fileRef = 23C01BC420D0CFE500EE6543 /* JournalEntry */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		23A8CEF420D0C6F7001B9D72 /* JournalEntryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JournalEntryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A8CEF820D0C6F7001B9D72 /* JournalEntryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryUITests.swift; sourceTree = "<group>"; };
 		23A8CEFA20D0C6F7001B9D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23C01BC420D0CFE500EE6543 /* JournalEntry */ = {isa = PBXFileReference; lastKnownFileType = folder; name = JournalEntry; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +101,6 @@
 			children = (
 				23A8CED520D0C6F5001B9D72 /* AppDelegate.swift */,
 				23A8CED720D0C6F5001B9D72 /* addItemViewController.swift */,
-				23C01BC420D0CFE500EE6543 /* JournalEntry */,
 				23A8CED920D0C6F5001B9D72 /* Main.storyboard */,
 				23A8CEDF20D0C6F7001B9D72 /* Assets.xcassets */,
 				23A8CEE120D0C6F7001B9D72 /* LaunchScreen.storyboard */,
@@ -236,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				23A8CEE320D0C6F7001B9D72 /* LaunchScreen.storyboard in Resources */,
-				23C01BC520D0CFE500EE6543 /* JournalEntry in Resources */,
 				23A8CEE020D0C6F7001B9D72 /* Assets.xcassets in Resources */,
 				23A8CEDB20D0C6F5001B9D72 /* Main.storyboard in Resources */,
 			);
