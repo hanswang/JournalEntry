@@ -51,6 +51,7 @@
 		23A8CEF820D0C6F7001B9D72 /* JournalEntryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryUITests.swift; sourceTree = "<group>"; };
 		23A8CEFA20D0C6F7001B9D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23B88FD620D0DF0900E3AFF6 /* DisplayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTableViewController.swift; sourceTree = "<group>"; };
+		5BE6841420D299370077202B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +86,7 @@
 				23A8CEEC20D0C6F7001B9D72 /* JournalEntryTests */,
 				23A8CEF720D0C6F7001B9D72 /* JournalEntryUITests */,
 				23A8CED320D0C6F5001B9D72 /* Products */,
+				5BE6841320D299360077202B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +131,14 @@
 				23A8CEFA20D0C6F7001B9D72 /* Info.plist */,
 			);
 			path = JournalEntryUITests;
+			sourceTree = "<group>";
+		};
+		5BE6841320D299360077202B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BE6841420D299370077202B /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +209,11 @@
 				TargetAttributes = {
 					23A8CED120D0C6F5001B9D72 = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					23A8CEE820D0C6F7001B9D72 = {
 						CreatedOnToolsVersion = 9.4;

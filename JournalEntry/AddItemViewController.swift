@@ -9,8 +9,7 @@
 import UIKit
 
 class AddItemViewController: UIViewController, UITextViewDelegate {
-    
-    @IBOutlet var itemEntryTextView: UITextView?
+    @IBOutlet weak var itemEntryTextView: UITextView!
     
     @IBAction func cancel(_ sender: Any) {
         dismiss(animated: true, completion: nil)
